@@ -1,5 +1,4 @@
-# **Hello there 👋**
-# **Welcome!**
+# **Hello there 👋** **Welcome!**
 
 <!--
 **FianMorphix/FianMorphix** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
