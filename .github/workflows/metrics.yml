@@ -1,8 +1,8 @@
 name: Metrics
 on:
   schedule:
-    # Runs every day at midnight UTC
-    - cron: '0 0 * * *' 
+    # Runs every 6 hours
+    - cron: "0 16,22,4,10 * * *"
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
 jobs:
