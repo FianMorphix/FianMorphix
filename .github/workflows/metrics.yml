@@ -1,9 +1,9 @@
 name: Metrics
 on:
   schedule:
-    # Runs every 6 hours
-    - cron: "0 16,22,4,10 * * *"
-  # Lines below let you run workflow manually and on each commit
+    # Runs once a day. Think about the planet! No need to update stats too frequently.
+    - cron: "0 16 * * *"
+  # Lines below let you run workflow manually.
   workflow_dispatch:
 jobs:
   github-metrics:
